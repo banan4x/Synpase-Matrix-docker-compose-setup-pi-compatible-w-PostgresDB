@@ -174,7 +174,7 @@ docker-compose up
 ```
 Note: We are not using the ```-d``` option for the first start-up, so we can trace errors or possible misconfiguration without having to search through the docker logs.
    
-You can check wether the server is operational by navigating to https://<yourdomain>/__matrix/static/ . 
+You can check wether the server is operational by navigating to https://\<yourdomain>/__matrix/static/ . 
 You should see a screen like this:
 ![image](https://user-images.githubusercontent.com/18336098/170820411-b108bde4-3119-485c-936f-bf24991dc474.png)
     
